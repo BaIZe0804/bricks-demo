@@ -1,0 +1,32 @@
+#div1 {
+  width: 600px;
+  height: 600px;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 50px auto;
+  position: relative;
+}
+#ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(85, 247, 60);
+  position: absolute;
+  bottom: 10px;
+  left: 135px;
+}
+#bat {
+  width: 70px;
+  height: 15px;
+  background-color: rgb(210, 60, 247);
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#brick div {
+  width: 98px;
+  height: 30px;
+  float: left;
+  border: 1px solid rgb(134, 134, 134);
+}
